@@ -1,0 +1,244 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+
+ 
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}	
+p{
+	margin:0;
+
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/*-- w3layouts --*/
+label{
+	margin:0;
+}
+.content{
+    padding: 0em 0;
+}
+.content h1{
+	color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+/*-- pricing --*/
+.pricing {
+    margin: 0 auto;
+    box-shadow: 0 0px 7px #757575;
+    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.pricing-top{
+    padding: 1.2em 0;
+	background:#3298c0;
+	text-align:center;
+	 border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-ms-border-top-left-radius: 5px;
+	-o-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-ms-border-top-right-radius: 5px;
+	-o-border-top-right-radius: 5px;
+}
+.blue-top{
+	background:#bb0d0d;
+}
+.green-top{
+	background:#bb0d0d;
+}
+
+.pricing-top h3{
+	color:#FFF;
+	font-size:2em;
+	margin:0;
+/*-- agileits --*/
+}
+.pricing-top p{
+	color:#FFF;
+	font-size:.875em;
+	margin:1em 0 0 0;
+}
+.pricing-bottom{
+    background: #FFF;
+    text-align: center;
+    padding: 2em;
+    border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-ms-border-bottom-left-radius: 5px;
+	-o-border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-ms-border-bottom-right-radius: 5px;
+	-o-border-bottom-right-radius: 5px;
+}
+.pricing-bottom-top {
+    padding-bottom: 2em;
+}
+.pricing-bottom-top p{
+    color: rgb(22, 12, 80);
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 600;
+}
+.pricing-bottom-bottom{
+	padding: 2em 0;
+    border-top: solid 1px rgb(185, 204, 10);
+    border-bottom: solid 1px rgb(185, 204, 10);
+}
+.pricing-bottom-bottom p{
+	color: #A5A5A5;
+    font-size: .875em;
+    margin: 0 0 1em 0;
+}
+.pricing-bottom-bottom p span{
+	font-weight:600;
+	color:rgb(22, 12, 80);
+}
+p.text {
+    margin-bottom: 0;
+}
+.buy-button {
+/*-- w3layouts --*/
+    margin: 1.5em 0 0 0;
+}
+.buy-button a{
+    background: rgb(22, 12, 80);
+    padding: .5em 2em;
+	border: solid 1px rgb(22, 12, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+.buy-button a:hover{
+	background: none;
+	border: solid 1px #333;
+	color:#333;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+/*-- //pricing --*/
+.copyright{
+	text-align: center;
+	margin: 2em 0 0 0;
+}
+.copyright p{
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0;
+}
+.copyright p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.copyright p a:hover{
+    color: #FD5C63;
+}
+/*-- responsive --*/
+@media (max-width: 568px){
+	.flipster-carousel .flip-future {
+		-webkit-transform: translateX(95%) translateZ(0) rotateY(-54deg) scale(0.65);
+		-moz-transform: translateX(95%) translateZ(0) rotateY(-54deg) scale(0.65);
+		-o-transform: translateX(95%) translateZ(0) rotateY(-54deg) scale(0.65);
+		-ms-transform: translateX(95%) translateZ(0) rotateY(-54deg) scale(0.65);
+		transform: translateX(95%) translateZ(0) rotateY(-54deg) scale(0.65);
+	}
+	.flipster-carousel .flip-past {
+		-webkit-transform: translateX(-95%) translateZ(0) rotateY(54deg) scale(0.65);
+		-moz-transform: translateX(-95%) translateZ(0) rotateY(54deg) scale(0.65);
+		-o-transform: translateX(-95%) translateZ(0) rotateY(54deg) scale(0.65);
+		-ms-transform: translateX(-95%) translateZ(0) rotateY(54deg) scale(0.65);
+		transform: translateX(-95%) translateZ(0) rotateY(54deg) scale(0.65);
+	}
+}
+@media (max-width: 480px){
+	.content h1 {
+		font-size: 2em;
+	}
+	.flipster-carousel .flip-future {
+		-webkit-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.65);
+		-moz-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.65);
+		/*-- agileits --*/
+		-o-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.65);
+		-ms-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.65);
+		transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.65);
+	}
+	.flipster-carousel .flip-next {
+		-webkit-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.8);
+		-moz-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.8);
+		-o-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.8);
+		-ms-transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.8);
+		transform: translateX(20%) translateZ(0) rotateY(-54deg) scale(0.8);
+	}
+	.flipster-carousel .flip-prev {
+		-webkit-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.8);
+		-moz-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.8);
+		-o-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.8);
+		-ms-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.8);
+		transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.8);
+	}
+	.flipster-carousel .flip-past {
+		-webkit-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.65);
+		-moz-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.65);
+		-o-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.65);
+		-ms-transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.65);
+		transform: translateX(-20%) translateZ(0) rotateY(54deg) scale(0.65);
+	}
+}
+@media (max-width: 320px){
+	.content h1 {
+	font-size: 1.6em;
+	}
+	.content {
+		padding: 2em 0;
+	}
+	.pricing-top h3 {
+		font-size: 1.5em;
+	}
+	.pricing-bottom {
+		padding: 1em 2em;
+	}
+	.pricing-bottom-top {
+		padding-bottom: 1em;
+	}
+	.pricing-bottom-bottom {
+		padding: 1em 0;
+	}
+	p.text {
+		margin-bottom: 0;
+	}
+}
+/*-- //responsive --*/

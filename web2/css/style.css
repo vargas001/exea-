@@ -1,0 +1,248 @@
+
+/*--- reset code ---*/
+
+
+body {
+	background: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+h1.header-w3ls {
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 30px;
+    color: #FFF;
+}
+p {
+    font-size: 16px;
+    color: #c3c3c3;
+    margin: 20px 0 30px;
+}
+.content-w3ls {
+	width: 35%;
+    margin: 50px auto 50px;
+    background-color:rgba(84, 84, 85, 0.52);
+    padding: 55px 50px;
+}
+.content-wthree1,.content-wthree2,.content-wthree3,.content-wthree4 {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.grid-agileits1 {
+
+}
+.form-control {
+    padding-bottom: 20px;
+}
+.form-control:nth-child(6) {
+	padding-bottom:0;
+}
+
+/*-- responsive design --*/
+@media (max-width:1440px) {
+	input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 94%;
+}
+	select {
+    width:40%;
+}
+}
+@media (max-width: 1366px) {
+.content-w3ls {
+    width: 40%;
+}
+}
+@media (max-width: 1280px) {
+.content-w3ls {
+   width: 43%;
+}
+}
+@media (max-width:1080px) {
+.content-w3ls {
+   width: 50%;
+}
+}
+@media (max-width: 1024px) {
+.content-w3ls {
+   width: 50%;
+}
+}
+@media (max-width: 991px) {
+.content-w3ls {
+   width: 55%;
+}
+}
+@media (max-width: 900px) {
+}
+@media (max-width: 800px) {
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 93%;
+}
+}
+@media (max-width: 768px) {
+h1.header-w3ls {
+    font-size: 40px;
+}
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 93%;
+}
+select {
+    width: 50%;
+}
+}
+@media (max-width: 736px) {
+
+.content-w3ls {
+    width: 60%;
+}
+}
+@media (max-width: 667px) {
+.content-w3ls {
+    width: 65%;
+    margin: 20px auto 40px;
+    padding: 35px 35px;
+}
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 93%;
+}
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 93%;
+}
+h1.header-w3ls {
+    font-size: 30px;
+}
+}
+@media (max-width: 640px) {
+.content-w3ls {
+    width: 70%;
+}
+}
+@media (max-width: 600px) {
+label.header {
+    font-size: 17px;
+}
+p.copyright {
+    font-size: 15px;
+    padding-bottom: 0;
+}
+.content-w3ls {
+    width: 72%;
+}
+}
+@media (max-width: 568px) {
+.content-w3ls {
+    width: 80%;
+}
+}
+@media (max-width: 480px) {
+h1.header-w3ls {
+    font-size: 26px;
+}
+.content-w3ls {
+    width: 65%;
+}
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 92%;
+}
+ select{
+    width: 60%;
+}
+.content-w3ls {
+    width: 85%;
+    padding: 20px 18px;
+}
+label.rating {
+    font-size: 16px;
+}
+label.header {
+    font-size: 16px;
+}
+}
+@media (max-width: 414px) {
+h1.header-w3ls {
+    font-size: 24px;
+}
+label.rating {
+    font-size: 15px;
+}
+.content-w3ls {
+    width: 86%;
+    margin: 20px auto 25px;
+}
+ul.w3-size li {
+    width: 15%;
+}
+h1.header-w3ls {
+    padding-top: 30px;
+	line-height: 33px;
+}
+}
+@media (max-width: 384px) {
+h1.header-w3ls {
+    font-size: 22px;
+}
+p.copyright {
+    padding: 0 10px;
+}
+input#name, input#email, input#orgn,.tickets input[type="number"] {
+    width: 89.5%;
+}
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+	h1.header-w3ls {
+    font-size: 20px;
+}
+input#name, input#email, input#orgn, .tickets input[type="number"] {
+    width: 87.5%;
+}
+.form-control {
+    padding-bottom: 12px;
+}
+ul li .check::before {
+    height: 8px;
+    width: 8px;
+    top: 2px;
+    left: 2px;
+}
+ul li .check {
+    height: 12px;
+    width: 12px;
+    top: 17px;
+    left: 15px;
+}
+ul li label {
+    font-size: 14px;
+    padding:14px 0px 0px 39px;
+    margin: 2px auto;
+    height: 32px;
+}
+.grid-w3layouts2 {
+    margin-top: 2.3em;
+}
+h1.header-w3ls {
+    padding-top: 20px;
+}
+label.header {
+    font-size: 14px;
+}
+.w3ls-btn {
+    margin-top: 24px;
+}
+}
